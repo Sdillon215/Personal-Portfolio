@@ -78,12 +78,8 @@ header nav ul li a {
     width: 50%;
 }
 
-.flex-row {
-    display: flex;
-}
-
 .me img {
-    width: 30%;
+    width: 25%;
     height: 50%;
     display: block;
     margin: 0 auto 25px auto;
@@ -95,7 +91,6 @@ header nav ul li a {
     text-align: center;
     margin: 0 25px 30px 25px;
 }
-/* section style end */
 
 .runbuddy {
     background-image: url("../assets/images/hero-bg.jpg");
@@ -154,4 +149,11 @@ header nav ul li a {
     height: 35%;
     width: 35%;
     margin: 10px 10px;
+}
+
+.contact {
+    color: #cea10e;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 25px 30px 25px;
 }

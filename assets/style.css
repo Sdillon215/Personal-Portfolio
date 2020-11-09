@@ -97,16 +97,61 @@ header nav ul li a {
 }
 /* section style end */
 
-/* grid */
-.work-grid-container {
-    display: grid;
-    justify-content: center;
+.runbuddy {
+    background-image: url("../assets/images/hero-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: end;
+    height: 40%;
+    width: 40%;
+    margin: 10px auto;
 }
 
-.work-grid-item {
-    width: 200px;
-    height: 300px;
-    background-color: orange;
-    border: solid;
+.work h4 {
+    font-size: 25px;
+    color: white;
+}
+
+.work2 {
+   display: flex;
+   justify-content: center;
+}
+
+.horiseon {
+    background-image: url("../assets/images/search-engine-optimization.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: left;
+    text-align: end;
+    height: 35%;
+    width: 35%;
+    margin: 10px;
+}
+
+.horiseon h4 {
     color: black;
+}
+
+.placeholder {
+    background-image: url("../assets/images/future.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: left;
+    text-align: end;
+    height: 35%;
+    width: 35%;
+    margin: 10px 10px;
 }

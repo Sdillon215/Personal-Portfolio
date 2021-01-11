@@ -136,8 +136,8 @@ header nav ul li a {
     color: black;
 }
 
-.placeholder {
-    background-image: url("../assets/images/future.jpg");
+.trivia {
+    background-image: url("../assets/images/trivia-night.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
